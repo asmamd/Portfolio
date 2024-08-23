@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #6b6262;
+}
+
+.timer-container {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 800px;
+    width: 800px
+}
+
+#timeDisplay {
+    font-size: 10em;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 40px;
+}
+
+button {
+    padding: 20px 20px;
+    font-size: 1em;
+    border: navy;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f39c12;
+    color: white;
+}
+
+button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
